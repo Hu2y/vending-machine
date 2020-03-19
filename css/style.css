@@ -76,6 +76,11 @@
   margin: 2px 2px;
 }
 
+.select-number button:hover {
+  background-color: yellow;
+  color: #41b883;
+}
+
 .select-production {
   float: left;
   color: #41b883;
