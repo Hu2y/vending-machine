@@ -11,7 +11,7 @@ class ProductModel extends Observer {
   }
 
   async fetchData() {
-    const res = await fetch('./vending-machine/db/productData.json')
+    const res = await fetch('https://hu2y.github.io/vending-machine/db/productData.json')
     const productData = await res.json()
     this.productData = productData
     this.fireEvent("initProductViewRender", productData)
