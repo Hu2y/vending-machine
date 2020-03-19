@@ -11,7 +11,7 @@ class ProductModel extends Observer {
   }
 
   async fetchData() {
-    const res = await fetch(this.PRODUCT_URL)
+    const res = await fetch('../db/productData.json')
     const productData = await res.json()
     this.productData = productData
     this.fireEvent("initProductViewRender", productData)

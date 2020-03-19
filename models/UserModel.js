@@ -9,7 +9,7 @@ class UserModel extends Observer {
   }
 
   async fetchData() {
-    const res = await fetch(this.WALLET_URL)
+    const res = await fetch('../db/walletData.json')
     const walletData = await res.json()
     this.walletData = walletData
     this.initExpense()
