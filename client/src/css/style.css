@@ -1,0 +1,135 @@
+.wrap {
+ width: 2000px;
+}
+
+.container {
+  float: left;
+  width: 1900px;
+  margin: 0 auto;
+}
+
+/*상품 화면 production-view */
+.product-view {
+  float: left;
+  width: 350px;
+  margin: 50px 20px;
+}
+
+.product-list {
+  float: left;
+}
+
+.product-list li {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #41b883;
+  margin: 3px 3px;
+  color: #fff;
+}
+
+.prod-index {
+  position: absolute;
+  display: block;
+  top: 2px;
+  left: 4px;
+}
+
+.prod-name {
+  display: block;
+  text-align: center;
+  line-height: 80px;
+}
+
+.prod-price {
+  position: absolute;
+  display: block;
+  top: 60px;
+  left: 28px;
+}
+
+/* 상품 선택 화면 production-select-view */
+.select-product-number {
+  text-align: center;
+  color: red;
+}
+
+.select-price {
+  text-align: center;
+  color: red;
+}
+
+.production-select-view {
+  float: left;
+  margin: 40px 20px;
+  width: 250px;
+}
+
+.select-number button {
+  background-color: #41b883;
+  float: left;
+  width: 75px;
+  height: 40px;
+  color: #fff;
+  margin: 2px 2px;
+}
+
+.select-production {
+  float: left;
+  color: #41b883;
+  overflow-y: scroll;
+  border: 1px solid #41b883;
+  width: 215px;
+  height: 130px;
+  margin-top: 10px;
+  /* padding-left: 20px; */
+  padding: 10px 10px;
+}
+
+/* 지갑 화면 wallet-view */
+.wallet-view {
+  float: left;
+  height: 500px;
+  margin: 40px 20px;
+}
+
+.wallet-view ul {
+  float: left;
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.wallet-view ul li {
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+
+.wallet-view ul li button {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  background-color: #41b883;
+  color: #fff;
+  margin: 10px 10px;
+}
+
+.wallet-view ul li span {
+  display: inline-block;
+}
+
+.wallet-sum {
+  display: block;
+  text-align: center;
+  margin-left: 20px;
+  width: 60px;
+  height: 40px;
+  color: red;
+}
+
+/* 상품 선택 style */
+.prod-selected {
+  outline: 3px solid red;
+}

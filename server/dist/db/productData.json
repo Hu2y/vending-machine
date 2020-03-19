@@ -1,0 +1,88 @@
+[
+  {
+    "index" : 1,
+    "name" : "콜라",
+    "price" : 500 
+  },
+  {
+    "index" : 2,
+    "name" : "사이다",
+    "price" : 1000 
+  },
+  {
+    "index" : 3,
+    "name" : "환타",
+    "price" : 400 
+  },
+  {
+    "index" : 4,
+    "name" : "포토맛 환타",
+    "price" : 300 
+  },
+  {
+    "index" : 5,
+    "name" : "레몬에이드",
+    "price" : 900 
+  },
+  {
+    "index" : 6,
+    "name" : "봉봉",
+    "price" : 1200 
+  },
+  {
+    "index" : 7,
+    "name" : "코코아주스",
+    "price" : 1000 
+  },
+  {
+    "index" : 8,
+    "name" : "콜라제로",
+    "price" : 1000 
+  },
+  {
+    "index" : 9,
+    "name" : "파워에이드",
+    "price" : 2000 
+  },
+  {
+    "index" : 10,
+    "name" : "초코우유",
+    "price" : 1000 
+  },
+  {
+    "index" : 11,
+    "name" : "초코우유",
+    "price" : 7000 
+  },
+  {
+    "index" : 12,
+    "name" : "초코우유",
+    "price" : 600 
+  },
+  {
+    "index" : 13,
+    "name" : "딸바주스",
+    "price" : 1000 
+  },
+  {
+    "index" : 14,
+    "name" : "바나나우유",
+    "price" : 500 
+  },
+  {
+    "index" : 15,
+    "name" : "커피우유",
+    "price" : 1000 
+  },
+  {
+    "index" : 16,
+    "name" : "알로에",
+    "price" : 1200 
+  }
+]
+
+
+
+
+
+            
