@@ -121,6 +121,11 @@
   margin: 10px 10px;
 }
 
+.wallet-view ul li button:hover {
+  background-color: yellow;
+  color: #41b883;
+}
+
 .wallet-view ul li span {
   display: inline-block;
 }
